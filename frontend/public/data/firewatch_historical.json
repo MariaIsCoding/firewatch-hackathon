@@ -1,0 +1,2576 @@
+[
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-01",
+    "activity_count": 404613,
+    "historical_median": 367209.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 10.1860248523
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-02",
+    "activity_count": 231701,
+    "historical_median": 265126.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.6072131741
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-03",
+    "activity_count": 337810,
+    "historical_median": 354501.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.7083082981
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-04",
+    "activity_count": 306254,
+    "historical_median": 318020.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.6997673102
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-05",
+    "activity_count": 252503,
+    "historical_median": 259601.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -2.7341959392
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-06",
+    "activity_count": 346923,
+    "historical_median": 397273.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.6739043429
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-07",
+    "activity_count": 515713,
+    "historical_median": 537035.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.9703185081
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-08",
+    "activity_count": 661519,
+    "historical_median": 623311.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.1298452939
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-09",
+    "activity_count": 554812,
+    "historical_median": 465607.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 19.1588614432
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-10",
+    "activity_count": 424794,
+    "historical_median": 387237.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 9.6987116417
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-11",
+    "activity_count": 317325,
+    "historical_median": 273425.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 16.0555911127
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2015-12",
+    "activity_count": 418221,
+    "historical_median": 367795.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 13.7103549532
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-01",
+    "activity_count": 394450,
+    "historical_median": 378412.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.238237688
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-02",
+    "activity_count": 284146,
+    "historical_median": 264451.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 7.447301301
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-03",
+    "activity_count": 265223,
+    "historical_median": 346155.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -23.3803882937
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-04",
+    "activity_count": 297809,
+    "historical_median": 312137.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.5902920833
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-05",
+    "activity_count": 273333,
+    "historical_median": 256052.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.7490197304
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-06",
+    "activity_count": 374028,
+    "historical_median": 372098.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.5186805626
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-07",
+    "activity_count": 531996,
+    "historical_median": 526374.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.0680618724
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-08",
+    "activity_count": 572945,
+    "historical_median": 628939.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.9029301729
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-09",
+    "activity_count": 462263,
+    "historical_median": 510209.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -9.3974141995
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-10",
+    "activity_count": 310743,
+    "historical_median": 399662.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -22.2486472962
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-11",
+    "activity_count": 294792,
+    "historical_median": 281098.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.8714240738
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2016-12",
+    "activity_count": 381630,
+    "historical_median": 373060.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.2970805003
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-01",
+    "activity_count": 328905,
+    "historical_median": 389615.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -15.5820489458
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-02",
+    "activity_count": 274151,
+    "historical_median": 265126.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 3.4040418518
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-03",
+    "activity_count": 262454,
+    "historical_median": 337810.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -22.3072141144
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-04",
+    "activity_count": 301954,
+    "historical_median": 306254.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.4040632939
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-05",
+    "activity_count": 227884,
+    "historical_median": 259601.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.2175954638
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-06",
+    "activity_count": 327630,
+    "historical_median": 374028.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.4049536398
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-07",
+    "activity_count": 486686,
+    "historical_median": 531996.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.5169813307
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-08",
+    "activity_count": 619021,
+    "historical_median": 623311.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -0.6882599537
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-09",
+    "activity_count": 594814,
+    "historical_median": 465607.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 27.7502271229
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-10",
+    "activity_count": 370165,
+    "historical_median": 387237.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.4086696261
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-11",
+    "activity_count": 298443,
+    "historical_median": 288772.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 3.3490089067
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2017-12",
+    "activity_count": 386174,
+    "historical_median": 378326.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.0744014421
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-01",
+    "activity_count": 396531,
+    "historical_median": 378412.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.7881673943
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-02",
+    "activity_count": 227175,
+    "historical_median": 269575.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -15.7284614671
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-03",
+    "activity_count": 267670,
+    "historical_median": 312994.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -14.4809253837
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-04",
+    "activity_count": 283286,
+    "historical_median": 304104.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.8456843711
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-05",
+    "activity_count": 219065,
+    "historical_median": 256052.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -14.4451127115
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-06",
+    "activity_count": 311224,
+    "historical_median": 360475.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -13.6629257744
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-07",
+    "activity_count": 474953,
+    "historical_median": 523854.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -9.3349393773
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-08",
+    "activity_count": 611418,
+    "historical_median": 621166.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.5693067554
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-09",
+    "activity_count": 469921,
+    "historical_median": 510209.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -7.8964621396
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-10",
+    "activity_count": 298412,
+    "historical_median": 378701.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -21.2011586978
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-11",
+    "activity_count": 291977,
+    "historical_median": 291782.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.0668307161
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2018-12",
+    "activity_count": 358586,
+    "historical_median": 379978.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.62979962
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-01",
+    "activity_count": 336299,
+    "historical_median": 389615.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -13.6842780694
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-02",
+    "activity_count": 272852,
+    "historical_median": 265126.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.9140861326
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-03",
+    "activity_count": 331408,
+    "historical_median": 288179.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 15.0007460641
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-04",
+    "activity_count": 308025,
+    "historical_median": 301954.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.0105711466
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-05",
+    "activity_count": 246589,
+    "historical_median": 252503.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -2.3421503903
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-06",
+    "activity_count": 395642,
+    "historical_median": 346923.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 14.0431738455
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-07",
+    "activity_count": 621933,
+    "historical_median": 515713.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 20.5967272495
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-08",
+    "activity_count": 646254,
+    "historical_median": 619021.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.3993660958
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-09",
+    "activity_count": 512981,
+    "historical_median": 469921.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 9.1632423322
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-10",
+    "activity_count": 291618,
+    "historical_median": 370165.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -21.2194561885
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-11",
+    "activity_count": 258857,
+    "historical_median": 291977.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.3433592372
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2019-12",
+    "activity_count": 383549,
+    "historical_median": 378326.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.380555394
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-01",
+    "activity_count": 404057,
+    "historical_median": 378412.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.7770049576
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-02",
+    "activity_count": 345335,
+    "historical_median": 268989.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 28.3825732651
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-03",
+    "activity_count": 349613,
+    "historical_median": 309793.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 12.8535621309
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-04",
+    "activity_count": 325726,
+    "historical_median": 304104.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 7.1100676084
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-05",
+    "activity_count": 222139,
+    "historical_median": 249546.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.9827446643
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-06",
+    "activity_count": 346284,
+    "historical_median": 360475.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.9368833666
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-07",
+    "activity_count": 519750,
+    "historical_median": 523854.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -0.7835190878
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-08",
+    "activity_count": 471657,
+    "historical_median": 621166.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -24.0690894222
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-09",
+    "activity_count": 560788,
+    "historical_median": 491451.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 14.1086293445
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-10",
+    "activity_count": 348996,
+    "historical_median": 340454.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.5090026847
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-11",
+    "activity_count": 275072,
+    "historical_median": 290374.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.269918674
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2020-12",
+    "activity_count": 295295,
+    "historical_median": 379978.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -22.2862902589
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-01",
+    "activity_count": 316891,
+    "historical_median": 389615.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -18.6656057903
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-02",
+    "activity_count": 275508,
+    "historical_median": 272852.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.9734214886
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-03",
+    "activity_count": 294764,
+    "historical_median": 331408.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.057065611
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-04",
+    "activity_count": 274975,
+    "historical_median": 306254.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.2134176207
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-05",
+    "activity_count": 222100,
+    "historical_median": 246589.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -9.9310999274
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-06",
+    "activity_count": 302034,
+    "historical_median": 346923.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.9391824699
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-07",
+    "activity_count": 683396,
+    "historical_median": 519750.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 31.4855218855
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-08",
+    "activity_count": 721145,
+    "historical_median": 619021.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 16.4976632457
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-09",
+    "activity_count": 459662,
+    "historical_median": 512981.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.3939522127
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-10",
+    "activity_count": 307062,
+    "historical_median": 348996.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.0156104941
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-11",
+    "activity_count": 257808,
+    "historical_median": 288772.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.7226462399
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2021-12",
+    "activity_count": 290814,
+    "historical_median": 378326.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -23.1313734716
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-01",
+    "activity_count": 332258,
+    "historical_median": 378412.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.196759088
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-02",
+    "activity_count": 277275,
+    "historical_median": 273438.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.4032431484
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-03",
+    "activity_count": 255795,
+    "historical_median": 313086.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -18.2988060788
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-04",
+    "activity_count": 159279,
+    "historical_median": 304104.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -47.623510378
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-05",
+    "activity_count": 219924,
+    "historical_median": 237236.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -7.2975701462
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-06",
+    "activity_count": 302991,
+    "historical_median": 346603.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.5828215814
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-07",
+    "activity_count": 420871,
+    "historical_median": 525873.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -19.9671783872
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-08",
+    "activity_count": 542356,
+    "historical_median": 621166.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.6874297692
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-09",
+    "activity_count": 466629,
+    "historical_median": 491451.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.0507578579
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-10",
+    "activity_count": 292071,
+    "historical_median": 329869.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.4586222734
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-11",
+    "activity_count": 248468,
+    "historical_median": 281922.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.8664027639
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2022-12",
+    "activity_count": 291201,
+    "historical_median": 373060.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -21.9426875802
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-01",
+    "activity_count": 312536,
+    "historical_median": 367209.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -14.8887962986
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-02",
+    "activity_count": 319625,
+    "historical_median": 274024.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 16.6412431028
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-03",
+    "activity_count": 276627,
+    "historical_median": 294764.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.1530580397
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-04",
+    "activity_count": 287029,
+    "historical_median": 301954.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.9428058578
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-05",
+    "activity_count": 300464,
+    "historical_median": 227884.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 31.849537484
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-06",
+    "activity_count": 346542,
+    "historical_median": 346284.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.0745053193
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-07",
+    "activity_count": 588230,
+    "historical_median": 519750.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 13.1755651756
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-08",
+    "activity_count": 654865,
+    "historical_median": 619021.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 5.790433604
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-09",
+    "activity_count": 544340,
+    "historical_median": 469921.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 15.8364916656
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-10",
+    "activity_count": 448122,
+    "historical_median": 310743.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 44.209845435
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-11",
+    "activity_count": 293263,
+    "historical_median": 275072.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.6131776408
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2023-12",
+    "activity_count": 313925,
+    "historical_median": 367795.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -14.6467461493
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-01",
+    "activity_count": 372000,
+    "historical_median": 364757.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.9855657526
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-02",
+    "activity_count": 281661,
+    "historical_median": 274087.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.7631686961
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-03",
+    "activity_count": 270284,
+    "historical_median": 291471.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -7.269149814
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-04",
+    "activity_count": 290956,
+    "historical_median": 299881.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -2.9763423219
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-05",
+    "activity_count": 310678,
+    "historical_median": 237236.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 30.9570829109
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-06",
+    "activity_count": 409177,
+    "historical_median": 346413.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 18.1182576866
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-07",
+    "activity_count": 676636,
+    "historical_median": 525873.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 28.6690893048
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-08",
+    "activity_count": 773697,
+    "historical_median": 621166.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 24.5555938348
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-09",
+    "activity_count": 592112,
+    "historical_median": 491451.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 20.4824082157
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-10",
+    "activity_count": 307782,
+    "historical_median": 329869.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.6958297145
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-11",
+    "activity_count": 264508,
+    "historical_median": 281922.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.1768858053
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2024-12",
+    "activity_count": 316713,
+    "historical_median": 363190.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.7970032256
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-01",
+    "activity_count": 351099,
+    "historical_median": 367209.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.3871473738
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-02",
+    "activity_count": 254019,
+    "historical_median": 274151.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -7.3433983462
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-03",
+    "activity_count": 289867,
+    "historical_median": 288179.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.585747053
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-04",
+    "activity_count": 208723,
+    "historical_median": 297809.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -29.9138038139
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-05",
+    "activity_count": 222907,
+    "historical_median": 246589.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -9.6038347209
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-06",
+    "activity_count": 264457,
+    "historical_median": 346542.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -23.6868835524
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-07",
+    "activity_count": 423815,
+    "historical_median": 531996.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -20.3349273303
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-08",
+    "activity_count": 558685,
+    "historical_median": 623311.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.3681789668
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-09",
+    "activity_count": 398557,
+    "historical_median": 512981.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -22.3056994314
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-10",
+    "activity_count": 318740,
+    "historical_median": 310743.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.5735092987
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-11",
+    "activity_count": 215110,
+    "historical_median": 275072.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -21.7986563518
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2025-12",
+    "activity_count": 202793,
+    "historical_median": 358586.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -43.4464814577
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-01",
+    "activity_count": 277786,
+    "historical_median": 364757.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -23.843649548
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-02",
+    "activity_count": 205955,
+    "historical_median": 274087.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -24.8579377024
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-03",
+    "activity_count": 229066,
+    "historical_median": 289023.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -20.7447158185
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-04",
+    "activity_count": 218099,
+    "historical_median": 294382.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -25.9130552937
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-05",
+    "activity_count": 157813,
+    "historical_median": 237236.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -33.4786173291
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-06",
+    "activity_count": 251894,
+    "historical_median": 346413.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -27.2850614729
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-07",
+    "activity_count": 416189,
+    "historical_median": 525873.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -20.857507421
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-08",
+    "activity_count": 545678,
+    "historical_median": 621166.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.1526290879
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-09",
+    "activity_count": 358059,
+    "historical_median": 491451.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -27.14248216
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-10",
+    "activity_count": 298824,
+    "historical_median": 314741.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.0573248205
+  },
+  {
+    "region": "global",
+    "sensor": "MODIS",
+    "month": "2026-11",
+    "activity_count": 137299,
+    "historical_median": 274248.5,
+    "coverage_status": "partial",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-01",
+    "activity_count": 1796205,
+    "historical_median": null,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-02",
+    "activity_count": 1210196,
+    "historical_median": 1366133.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.4144816061
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-03",
+    "activity_count": 1623655,
+    "historical_median": null,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-04",
+    "activity_count": 1403371,
+    "historical_median": 1392848.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.7555023951
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-05",
+    "activity_count": 1146348,
+    "historical_median": 1164023.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.5184407868
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-06",
+    "activity_count": 1363426,
+    "historical_median": 1589123.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -14.2026136429
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-07",
+    "activity_count": 2147338,
+    "historical_median": 2299291.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.6086893742
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-08",
+    "activity_count": 2897979,
+    "historical_median": 2756071.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 5.1489239573
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-09",
+    "activity_count": 2606866,
+    "historical_median": 2181094.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 19.521029355
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-10",
+    "activity_count": 2100795,
+    "historical_median": 1943269.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 8.1062374792
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-11",
+    "activity_count": 1492048,
+    "historical_median": 1299324.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 14.8326360477
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2015-12",
+    "activity_count": 1663530,
+    "historical_median": 1513259.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 9.9302895274
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-01",
+    "activity_count": 1818856,
+    "historical_median": 1711913.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.2469880187
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-02",
+    "activity_count": 1593449,
+    "historical_median": 1345937.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 18.389568011
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-03",
+    "activity_count": 1434918,
+    "historical_median": 1623655.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.6242058812
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-04",
+    "activity_count": 1455474,
+    "historical_median": 1398109.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.1030048076
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-05",
+    "activity_count": 1189140,
+    "historical_median": 1155185.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.9393114785
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-06",
+    "activity_count": 1457281,
+    "historical_median": 1476274.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.2865832201
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-07",
+    "activity_count": 2179933,
+    "historical_median": 2223314.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.9512084323
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-08",
+    "activity_count": 2447933,
+    "historical_median": 2785612.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.1222553608
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-09",
+    "activity_count": 2195320,
+    "historical_median": 2393980.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.29831494
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-10",
+    "activity_count": 1592894,
+    "historical_median": 1966737.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -19.0082863138
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-11",
+    "activity_count": 1371496,
+    "historical_median": 1325143.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 3.4979230551
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2016-12",
+    "activity_count": 1621436,
+    "historical_median": 1563926.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 3.6772839636
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-01",
+    "activity_count": 1509532,
+    "historical_median": 1754059.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -13.9406371165
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-02",
+    "activity_count": 1391306,
+    "historical_median": 1366133.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.8426463602
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-03",
+    "activity_count": 1314981,
+    "historical_median": 1529286.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -14.0134304462
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-04",
+    "activity_count": 1371227,
+    "historical_median": 1403371.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -2.2904848397
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-05",
+    "activity_count": 1035655,
+    "historical_median": 1164023.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.0279607877
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-06",
+    "activity_count": 1339524,
+    "historical_median": 1457281.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.0805966728
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-07",
+    "activity_count": 1901158,
+    "historical_median": 2179933.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.7882370697
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-08",
+    "activity_count": 2735255,
+    "historical_median": 2756071.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -0.7552780752
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-09",
+    "activity_count": 2704020,
+    "historical_median": 2195320.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 23.1720204799
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-10",
+    "activity_count": 1818716,
+    "historical_median": 1943269.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.4094574657
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-11",
+    "activity_count": 1360303,
+    "historical_median": 1350963.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.6913586827
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2017-12",
+    "activity_count": 1605836,
+    "historical_median": 1614593.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -0.5423657851
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-01",
+    "activity_count": 1755301,
+    "historical_median": 1711913.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.5344745907
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-02",
+    "activity_count": 1148104,
+    "historical_median": 1378719.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -16.7267888791
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-03",
+    "activity_count": 1418345,
+    "historical_median": 1434918.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.1549788908
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-04",
+    "activity_count": 1315599,
+    "historical_median": 1398109.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.9015763787
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-05",
+    "activity_count": 1072390,
+    "historical_median": 1155185.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -7.1672904482
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-06",
+    "activity_count": 1225070,
+    "historical_median": 1410353.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -13.1373800966
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-07",
+    "activity_count": 1908701,
+    "historical_median": 2163635.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.782691678
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-08",
+    "activity_count": 2702855,
+    "historical_median": 2745663.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.559113409
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-09",
+    "activity_count": 2252890,
+    "historical_median": 2401093.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.1723140253
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-10",
+    "activity_count": 1507241,
+    "historical_median": 1880992.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -19.8699091038
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-11",
+    "activity_count": 1364682,
+    "historical_median": 1355633.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.6675110447
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2018-12",
+    "activity_count": 1499015,
+    "historical_median": 1610214.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.905881173
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-01",
+    "activity_count": 1596318,
+    "historical_median": 1733607.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -7.9192689
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-02",
+    "activity_count": 1423541,
+    "historical_median": 1366133.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.202226284
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-03",
+    "activity_count": 1646332,
+    "historical_median": 1426631.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 15.3999473585
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-04",
+    "activity_count": 1419279,
+    "historical_median": 1392848.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.8976227126
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-05",
+    "activity_count": 1151658,
+    "historical_median": 1146348.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.4632101247
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-06",
+    "activity_count": 1530141,
+    "historical_median": 1363426.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 12.2276529859
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-07",
+    "activity_count": 2612393,
+    "historical_median": 2147338.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 21.6572798507
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-08",
+    "activity_count": 2868367,
+    "historical_median": 2735255.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.8665298117
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-09",
+    "activity_count": 2427445,
+    "historical_median": 2252890.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 7.7480480627
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-10",
+    "activity_count": 1475598,
+    "historical_median": 1818716.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -18.8659471847
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-11",
+    "activity_count": 1267747,
+    "historical_median": 1360303.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.804072328
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2019-12",
+    "activity_count": 1676331,
+    "historical_median": 1605836.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 4.3899252477
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-01",
+    "activity_count": 1865942,
+    "historical_median": 1711913.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 8.9974782597
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-02",
+    "activity_count": 1697520,
+    "historical_median": 1378719.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 23.1229412509
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-03",
+    "activity_count": 1640038,
+    "historical_median": 1434918.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 14.2948935061
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-04",
+    "activity_count": 1504812,
+    "historical_median": 1398109.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 7.631912951
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-05",
+    "activity_count": 1026383,
+    "historical_median": 1149003.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.6718607349
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-06",
+    "activity_count": 1333991,
+    "historical_median": 1410353.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.4144226962
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-07",
+    "activity_count": 2025911,
+    "historical_median": 2163635.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.365420608
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-08",
+    "activity_count": 2614671,
+    "historical_median": 2745663.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.7708695495
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-09",
+    "activity_count": 2671465,
+    "historical_median": 2340167.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 14.1569994456
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-10",
+    "activity_count": 1751015,
+    "historical_median": 1705805.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 2.6503615595
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-11",
+    "activity_count": 1309326,
+    "historical_median": 1355633.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.4158950099
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2020-12",
+    "activity_count": 1278244,
+    "historical_median": 1610214.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -20.6165389766
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-01",
+    "activity_count": 1544798,
+    "historical_median": 1733607.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.8911073848
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-02",
+    "activity_count": 1388130,
+    "historical_median": 1391306.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -0.2282747289
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-03",
+    "activity_count": 1559469,
+    "historical_median": 1529286.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.973632802
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-04",
+    "activity_count": 1310857,
+    "historical_median": 1403371.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -6.5922696137
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-05",
+    "activity_count": 1053456,
+    "historical_median": 1146348.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.1032984748
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-06",
+    "activity_count": 1184768,
+    "historical_median": 1363426.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -13.1036081166
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-07",
+    "activity_count": 2772712,
+    "historical_median": 2147338.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 29.1232214025
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-08",
+    "activity_count": 3041882,
+    "historical_median": 2735255.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 11.2101796725
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-09",
+    "activity_count": 2311822,
+    "historical_median": 2427445.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.7631563228
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-10",
+    "activity_count": 1576870,
+    "historical_median": 1751015.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -9.9453745399
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-11",
+    "activity_count": 1293632,
+    "historical_median": 1350963.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -4.2437135584
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2021-12",
+    "activity_count": 1309362,
+    "historical_median": 1605836.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -18.4622838198
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-01",
+    "activity_count": 1563981,
+    "historical_median": 1711913.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.6413269833
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-02",
+    "activity_count": 1364542,
+    "historical_median": 1389718.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -1.8115905529
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-03",
+    "activity_count": 1286536,
+    "historical_median": 1559469.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -17.5016624248
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-04",
+    "activity_count": 1257064,
+    "historical_median": 1398109.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.0883013813
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-05",
+    "activity_count": 1016878,
+    "historical_median": 1109369.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.3372619931
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-06",
+    "activity_count": 1175150,
+    "historical_median": 1351475.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -13.0468562127
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-07",
+    "activity_count": 1387023,
+    "historical_median": 2163635.5,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-08",
+    "activity_count": 1646804,
+    "historical_median": 2745663.0,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-09",
+    "activity_count": 2230895,
+    "historical_median": 2369633.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.8548505497
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-10",
+    "activity_count": 1812180,
+    "historical_median": 1671954.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 8.3869208163
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-11",
+    "activity_count": 1224643,
+    "historical_median": 1330144.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -7.9315818695
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2022-12",
+    "activity_count": 1286150,
+    "historical_median": 1559547.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -17.5305657571
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-01",
+    "activity_count": 1475043,
+    "historical_median": 1675055.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -11.9406491307
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-02",
+    "activity_count": 1610839,
+    "historical_median": 1388130.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 16.0438143402
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-03",
+    "activity_count": 1441377,
+    "historical_median": 1497193.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.7280752288
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-04",
+    "activity_count": 1385581,
+    "historical_median": 1392848.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -0.5217367581
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-05",
+    "activity_count": 1436539,
+    "historical_median": 1072390.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 33.9567694589
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-06",
+    "activity_count": 1525091,
+    "historical_median": 1339524.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 13.8532045712
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-07",
+    "activity_count": 2311302,
+    "historical_median": 2163635.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.8249249931
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-08",
+    "activity_count": 2972647,
+    "historical_median": 2745663.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 8.2670014492
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-09",
+    "activity_count": 2714901,
+    "historical_median": 2311822.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 17.4355551595
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-10",
+    "activity_count": 2221618,
+    "historical_median": 1751015.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 26.8760119131
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-11",
+    "activity_count": 1323181,
+    "historical_median": 1309326.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.0581780244
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2023-12",
+    "activity_count": 1423909,
+    "historical_median": 1513259.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -5.9044750436
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-01",
+    "activity_count": 1725627,
+    "historical_median": 1638198.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 5.3369006677
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-02",
+    "activity_count": 1487680,
+    "historical_median": 1389718.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 7.0490559955
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-03",
+    "activity_count": 1443455,
+    "historical_median": 1441377.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 0.1441676952
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-04",
+    "activity_count": 1482592,
+    "historical_median": 1389214.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.7216041871
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-05",
+    "activity_count": 1351341,
+    "historical_median": 1109369.0,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-06",
+    "activity_count": 1572976,
+    "historical_median": 1351475.0,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-07",
+    "activity_count": 1635020,
+    "historical_median": 2179933.0,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-08",
+    "activity_count": 3582707,
+    "historical_median": 2756071.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 29.9932766609
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-09",
+    "activity_count": 2677962,
+    "historical_median": 2369633.5,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-10",
+    "activity_count": 1559875,
+    "historical_median": 1781597.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.4451510512
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-11",
+    "activity_count": 1084963,
+    "historical_median": 1316253.5,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2024-12",
+    "activity_count": 1460661,
+    "historical_median": 1506137.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.0193800431
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-01",
+    "activity_count": 1728326,
+    "historical_median": 1675055.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 3.1802229837
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-02",
+    "activity_count": 1391000,
+    "historical_median": 1391306.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -0.0219937239
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-03",
+    "activity_count": 1534970,
+    "historical_median": 1442416.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 6.4165954898
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-04",
+    "activity_count": 1064626,
+    "historical_median": 1392848.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -23.5648110921
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-05",
+    "activity_count": 1127180,
+    "historical_median": 1109369.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.6055072749
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-06",
+    "activity_count": 1235263,
+    "historical_median": 1351475.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -8.5989012005
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-07",
+    "activity_count": 1773088,
+    "historical_median": 2179933.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -18.6631882723
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-08",
+    "activity_count": 2683812,
+    "historical_median": 2785612.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.6544931599
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-09",
+    "activity_count": 2074692,
+    "historical_median": 2369633.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -12.4467138062
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-10",
+    "activity_count": 1707273,
+    "historical_median": 1751015.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -2.4980939626
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-11",
+    "activity_count": 1106841,
+    "historical_median": 1316253.5,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -15.9097392713
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2025-12",
+    "activity_count": 1079467,
+    "historical_median": 1499015.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -27.9882456146
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-01",
+    "activity_count": 1531105,
+    "historical_median": 1711913.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.5617516778
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-02",
+    "activity_count": 1190596,
+    "historical_median": 1391153.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -14.4166026311
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-03",
+    "activity_count": 1186378,
+    "historical_median": 1443455.0,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-04",
+    "activity_count": 1130677,
+    "historical_median": 1389214.5,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-05",
+    "activity_count": 910174,
+    "historical_median": 1127180.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -19.2521158999
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-06",
+    "activity_count": 1197855,
+    "historical_median": 1339524.0,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-07",
+    "activity_count": 1712868,
+    "historical_median": 2163635.5,
+    "coverage_status": "date_gaps_detected",
+    "anomaly_percent": null
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-08",
+    "activity_count": 2799591,
+    "historical_median": 2756071.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": 1.5790594654
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-09",
+    "activity_count": 2062739,
+    "historical_median": 2311822.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -10.7743156696
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-10",
+    "activity_count": 1660285,
+    "historical_median": 1729144.0,
+    "coverage_status": "no_date_gaps_detected",
+    "anomaly_percent": -3.9822594301
+  },
+  {
+    "region": "global",
+    "sensor": "VIIRS",
+    "month": "2026-11",
+    "activity_count": 79644,
+    "historical_median": 1309326.0,
+    "coverage_status": "partial",
+    "anomaly_percent": null
+  }
+]

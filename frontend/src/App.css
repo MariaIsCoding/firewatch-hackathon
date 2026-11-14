@@ -57,3 +57,772 @@ section p {
   color: #cbd5e1;
   line-height: 1.6;
 }
+
+.historical-summary {
+  margin-top: 28px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.summary-card {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.summary-card p {
+  color: #94a3b8;
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+
+.summary-card h3 {
+  color: #f8fafc;
+  margin: 0;
+  font-size: 25px;
+}
+
+.coverage-note {
+  color: #fbbf24;
+  margin-top: 16px;
+}
+
+@media (max-width: 650px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.historical-summary {
+  margin-top: 28px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.summary-card {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.summary-card p {
+  color: #94a3b8;
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+
+.summary-card h3 {
+  color: #f8fafc;
+  margin: 0;
+  font-size: 25px;
+}
+
+.coverage-note {
+  color: #fbbf24;
+  margin-top: 16px;
+}
+
+@media (max-width: 650px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FireWatch Calendar */
+
+.fire-calendar {
+  width: 100%;
+  color: #f8fafc;
+}
+
+.calendar-controls {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+
+.calendar-controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.calendar-controls select {
+  background: #0f172a;
+  color: #f8fafc;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 14px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.calendar-header h3 {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+.calendar-header button {
+  background: #1e293b;
+  color: #f8fafc;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.calendar-header button:hover {
+  background: #334155;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.calendar-weekday {
+  text-align: center;
+  color: #94a3b8;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+.calendar-day {
+  min-width: 0;
+  min-height: 75px;
+  background: #0f172a;
+  color: #f8fafc;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.calendar-day:hover:not(:disabled) {
+  background: #1e293b;
+  border-color: #fb923c;
+}
+
+.calendar-day.selected {
+  background: #7c2d12;
+  border: 2px solid #fb923c;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.calendar-day:disabled {
+  background: transparent;
+  border: none;
+  cursor: default;
+}
+
+.calendar-details {
+  margin-top: 24px;
+  padding: 20px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 12px;
+}
+
+.calendar-details h3 {
+  color: #fb923c;
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .calendar-grid {
+    gap: 4px;
+  }
+
+  .calendar-day {
+    min-height: 48px;
+    font-size: 13px;
+  }
+
+  .calendar-header h3 {
+    font-size: 17px;
+  }
+
+  .calendar-header button {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+/* Historical data CSV download button */
+
+.download-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ea580c;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.download-button:hover {
+  background: #c2410c;
+}
+
+.download-button:focus-visible {
+  outline: 3px solid #38bdf8;
+  outline-offset: 3px;
+}
+
+/* Fire Activity Calendar heatmap legend */
+
+.calendar-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.legend-colors {
+  display: flex;
+  gap: 5px;
+}
+
+.legend-colors span {
+  display: inline-block;
+  width: 22px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.calendar-disclaimer {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-top: 18px;
+  text-align: center;
+}
+
+/* Calendar selection and missing-data indicators */
+
+.calendar-day.selected {
+  outline: 3px solid #38bdf8;
+  outline-offset: -3px;
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+  font-weight: 700;
+}
+
+.calendar-day.missing-data {
+  background-color: #1e293b;
+  border: 1px dashed #64748b;
+  color: #94a3b8;
+}
+
+.missing-indicator {
+  display: block;
+  font-size: 13px;
+  margin-top: 4px;
+  color: #94a3b8;
+}
+
+.calendar-day.missing-data.selected {
+  outline: 3px solid #38bdf8;
+}
+
+.calendar-missing-note {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.missing-legend-symbol {
+  display: inline-block;
+  margin-right: 6px;
+  color: #94a3b8;
+  font-weight: bold;
+}
+
+/* Historical chart explanation */
+
+.chart-explanation {
+  background-color: #172033;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 24px;
+  color: #e2e8f0;
+}
+
+.chart-explanation h3 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.chart-explanation-item {
+  margin-bottom: 20px;
+}
+
+.chart-explanation-item h4 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.chart-explanation-item p,
+.chart-comparison p {
+  color: #e2e8f0;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.chart-explanation .orange-line {
+  color: #fb923c;
+}
+
+.chart-explanation .blue-line {
+  color: #38bdf8;
+}
+
+.chart-comparison {
+  border-top: 1px solid #334155;
+  padding-top: 18px;
+  margin-top: 8px;
+}
+
+.chart-comparison h4 {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.chart-explanation-note {
+  color: #cbd5e1;
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 18px 0 0;
+}
+
+/* Horizontal historical chart explanation */
+
+.chart-explanation {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 32px;
+  row-gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chart-explanation > h3 {
+  grid-column: 1 / -1;
+  margin-bottom: 4px;
+}
+
+.chart-explanation-item {
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.chart-comparison {
+  grid-column: 1 / -1;
+  margin-top: 0;
+}
+
+.chart-explanation-note {
+  grid-column: 1 / -1;
+  margin-top: 0;
+}
+
+/* Stack explanations on smaller screens */
+@media (max-width: 650px) {
+  .chart-explanation {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+}
+
+/* Make the historical chart explanation full width */
+
+.chart-explanation {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 40px;
+  row-gap: 14px;
+  align-items: start;
+}
+
+.chart-explanation > h3,
+.chart-comparison,
+.chart-explanation-note {
+  grid-column: 1 / -1;
+}
+
+.chart-explanation-item {
+  width: 100%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.chart-explanation-item p {
+  max-width: none;
+  width: 100%;
+}
+
+.chart-comparison {
+  margin-top: 0;
+  padding-top: 14px;
+}
+
+.chart-explanation-note {
+  margin-top: 0;
+}
+
+/* Mobile layout */
+@media (max-width: 650px) {
+  .chart-explanation {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FireWatch historical chart explanation layout */
+
+.chart-explanation {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 40px;
+  row-gap: 14px;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  align-items: start;
+}
+
+.chart-explanation > h3,
+.chart-comparison,
+.chart-explanation-note {
+  grid-column: 1 / -1;
+}
+
+.chart-explanation-item {
+  width: 100%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.chart-explanation-item p {
+  width: 100%;
+  max-width: none;
+}
+
+.chart-comparison {
+  margin-top: 0;
+  padding-top: 14px;
+}
+
+.chart-explanation-note {
+  margin-top: 0;
+}
+
+@media (max-width: 650px) {
+  .chart-explanation {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FireWatch map heading */
+
+.map-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.map-heading h2 {
+  margin: 0;
+}
+
+.map-demo-badge {
+  background-color: #334155;
+  color: #f8fafc;
+  border: 1px solid #64748b;
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.map-description {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+/* Map legend */
+
+.map-legend {
+  background-color: #172033;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-top: 18px;
+}
+
+.map-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.map-legend-dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  min-width: 14px;
+  border-radius: 50%;
+  background-color: #f97316;
+  border: 2px solid #fb923c;
+}
+
+.map-legend-note {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 12px 0 0;
+}
+
+/* Map popup */
+
+.map-popup {
+  color: #1e293b;
+  font-size: 13px;
+  line-height: 1.5;
+  min-width: 190px;
+}
+
+.map-popup strong {
+  font-size: 15px;
+}
+
+.map-popup p {
+  margin: 8px 0;
+}
+
+.map-popup-warning {
+  color: #9a3412;
+  font-weight: 600;
+}
+
+/* Improve readability of Leaflet map popups */
+
+.leaflet-popup-content,
+.leaflet-popup-content p,
+.leaflet-popup-content strong {
+  color: #1e293b;
+}
+
+.leaflet-popup-content .map-popup-warning {
+  color: #9a3412;
+}
+
+/* FireWatch satellite filter */
+
+.map-filter-panel {
+  background-color: #172033;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 18px 0;
+}
+
+.map-filter-panel h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 16px;
+}
+
+.map-filter-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px 24px;
+}
+
+.map-filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #e2e8f0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.map-filter-option input {
+  accent-color: #fb923c;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.map-filter-status {
+  color: #e2e8f0;
+  font-size: 14px;
+  margin: 18px 0 8px;
+}
+
+.map-filter-demo-note {
+  color: #94a3b8;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Satellite explanation */
+
+.map-satellite-info {
+  background-color: #172033;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-top: 18px;
+}
+
+.map-satellite-info h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+
+.map-satellite-info p {
+  color: #e2e8f0;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 12px;
+}
+
+.map-satellite-info .map-satellite-disclaimer {
+  color: #cbd5e1;
+  border-top: 1px solid #334155;
+  padding-top: 12px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 650px) {
+  .map-filter-options {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FireWatch map time-period selector */
+
+.map-time-panel {
+  background-color: #172033;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 18px 0;
+}
+
+.map-time-panel h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.map-time-description {
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.map-time-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.map-time-button {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 11px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.map-time-button:hover {
+  border-color: #fb923c;
+  color: #ffffff;
+}
+
+.map-time-button.active {
+  background-color: #f97316;
+  color: #ffffff;
+  border-color: #fb923c;
+}
+
+.map-time-status {
+  color: #e2e8f0;
+  font-size: 14px;
+  margin: 18px 0 8px;
+}
+
+.map-time-note {
+  color: #94a3b8;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 650px) {
+  .map-time-options {
+    flex-direction: column;
+  }
+
+  .map-time-button {
+    width: 100%;
+  }
+}
