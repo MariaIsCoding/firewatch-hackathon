@@ -21,6 +21,7 @@ import 'leaflet/dist/leaflet.css'
 
 import HistoricalChart from './HistoricalChart'
 import FireCalendar from './FireCalendar'
+import AlertSignup from './AlertSignup'
 import './App.css'
 
 // ==================================================
@@ -2778,6 +2779,41 @@ function exportAreaCSV() {
           </p>
         </div>
       </section>
+
+      {/* SMS ALERT SUBSCRIPTIONS */}
+
+      <section className="card">
+        <h2>📱 FireWatch SMS Alerts</h2>
+
+        <p>
+          Register a monitoring location and alert radius
+          for wildfire hotspot notifications.
+        </p>
+
+        <p>
+          SMS delivery is currently disabled pending
+          Twilio messaging registration.
+        </p>
+
+        <AlertSignup
+          area={
+            selectedArea
+              ? {
+                  latitude:
+                    (selectedArea.south + selectedArea.north) / 2,
+                  longitude:
+                    (selectedArea.west + selectedArea.east) / 2
+                }
+              : searchLocation
+                ? {
+                    latitude: searchLocation.latitude,
+                    longitude: searchLocation.longitude
+                  }
+                : null
+          }
+        />
+      </section>
+
 
       {/* HISTORICAL CHART */}
 
