@@ -28,7 +28,7 @@ import './App.css'
 // SETTINGS
 // ==================================================
 
-const API_BASE = 'http://localhost:8787'
+const API_BASE = 'https://firewatch-hackathon.mariashirin115.workers.dev'
 const REFRESH_MS = 15 * 60 * 1000
 const VIEWPORT_DELAY_MS = 450
 const DETAIL_ZOOM = 5
