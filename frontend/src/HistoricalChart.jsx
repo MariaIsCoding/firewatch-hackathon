@@ -21,6 +21,7 @@ function HistoricalChart() {
   const [sensor, setSensor] = useState('MODIS')
   const [year, setYear] = useState('2025')
   const [selectedMonth, setSelectedMonth] = useState('01')
+  const [comparePreviousYear, setComparePreviousYear] = useState(false)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(true)
 
@@ -46,19 +47,46 @@ function HistoricalChart() {
     ...new Set(records.map((item) => item.month.slice(0, 4)))
   ].sort()
 
-  const chartData = records
-    .filter(
-      (item) =>
-        item.sensor === sensor &&
-        item.month.startsWith(year)
+  // Index historical monthly records by satellite and month.
+  const recordLookup = new Map(
+    records.map((item) => [`${item.sensor}-${item.month}`, item])
+  )
+
+  const previousYear = String(Number(year) - 1)
+
+  // Build all twelve months in calendar order.
+  // Missing records become gaps instead of shifting the x-axis.
+  const chartData = monthNames.map((name, index) => {
+    const monthNumber = String(index + 1).padStart(2, '0')
+
+    const current = recordLookup.get(
+      `${sensor}-${year}-${monthNumber}`
     )
-    .map((item) => ({
-      month: monthNames[Number(item.month.slice(5, 7)) - 1],
-      activity: item.activity_count,
-      median: item.historical_median,
-      status: item.coverage_status,
-      anomaly: item.anomaly_percent,
-    }))
+
+    const previous = recordLookup.get(
+      `${sensor}-${previousYear}-${monthNumber}`
+    )
+
+    const previousYearComplete =
+      previous?.coverage_status === 'no_date_gaps_detected' &&
+      previous.activity_count != null &&
+      Number.isFinite(Number(previous.activity_count))
+
+    return {
+      month: name,
+      activity: current?.activity_count ?? null,
+      median: current?.historical_median ?? null,
+      status: current?.coverage_status ?? 'unavailable',
+      anomaly: current?.anomaly_percent ?? null,
+      previousYear: previousYearComplete
+        ? Number(previous.activity_count)
+        : null,
+    }
+  })
+
+  const previousYearHasData = chartData.some(
+    (item) => item.previousYear !== null
+  )
 
   if (loading) return <p>Loading NASA historical data...</p>
   if (error) return <p>Unable to load chart: {error}</p>
@@ -218,6 +246,32 @@ function HistoricalChart() {
         </label>
       </div>
 
+      {/* OPTIONAL PREVIOUS-YEAR COMPARISON */}
+      <label
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: 8,
+          marginTop: 16
+        }}
+      >
+        <input
+          type="checkbox"
+          checked={comparePreviousYear}
+          onChange={(event) =>
+            setComparePreviousYear(event.target.checked)
+          }
+        />
+        Compare with previous year ({previousYear})
+      </label>
+
+      {comparePreviousYear && !previousYearHasData && (
+        <p style={{ color: '#fbbf24', fontSize: 14 }}>
+          No complete previous-year monthly records are available
+          for this satellite selection and year.
+        </p>
+      )}
+
       <div style={{ width: '100%', height: 360, marginTop: 24 }}>
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData}>
@@ -269,6 +323,19 @@ function HistoricalChart() {
               strokeDasharray="6 4"
               connectNulls={false}
             />
+
+            {comparePreviousYear && (
+              <Line
+                type="monotone"
+                dataKey="previousYear"
+                name={`Previous year (${previousYear})`}
+                stroke="#a78bfa"
+                strokeWidth={2}
+                strokeDasharray="3 3"
+                dot={{ r: 3 }}
+                connectNulls={false}
+              />
+            )}
           </LineChart>
         </ResponsiveContainer>
       </div>
@@ -299,7 +366,7 @@ function HistoricalChart() {
           </div>
         </div>
 
-        {/* Explanation is OUTSIDE the summary-grid */}
+        {/* CHART EXPLANATIONS */}
         <div className="chart-explanation">
           <h3>Understanding This Chart</h3>
 
@@ -327,6 +394,19 @@ function HistoricalChart() {
             </p>
           </div>
 
+          <div className="chart-explanation-item">
+            <h4 style={{ color: '#a78bfa' }}>
+              🟣 Purple Line — Previous Year (Optional)
+            </h4>
+            <p>
+              When enabled, shows the same calendar months from the
+              preceding year for the selected satellite. For example,
+              July 2025 is compared with July 2024. Months with
+              incomplete or gap-flagged previous-year coverage are
+              omitted from this line rather than treated as zero.
+            </p>
+          </div>
+
           <div className="chart-comparison">
             <h4>How to Compare Them</h4>
             <p>
@@ -339,7 +419,11 @@ function HistoricalChart() {
           <p className="chart-explanation-note">
             Historical medians require at least three earlier years
             with eligible data. Months with detected date gaps are
-            excluded from the baseline.
+            excluded from the baseline. The current-year monthly
+            detections line retains the dataset's existing values;
+            check coverage notices before interpreting flagged months.
+            The previous-year line only displays months marked as
+            having no detected date gaps.
           </p>
         </div>
 
