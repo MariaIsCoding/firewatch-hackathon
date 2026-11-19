@@ -57,15 +57,19 @@ The planned alert system will allow users to:
 
 ---
 
-## 📸 Application Preview
 
-<!-- Add screenshots to an assets folder in your repository -->
+## 📸 FireWatch Preview
 
-<!-- Example:
-![FireWatch Dashboard](assets/firewatch-dashboard.png)
--->
+<div align="center">
 
-**🔥 [Try the Live Application](https://firewatch-frontend-5z5.pages.dev/)**
+![FireWatch Interactive Wildfire Map](firewatch-preview.png)
+
+*Explore satellite-detected fire activity through FireWatch's interactive map.*
+
+**[🔥 Launch FireWatch](https://firewatch-frontend-5z5.pages.dev/)**
+
+</div>
+
 
 ---
 
