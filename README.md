@@ -6,13 +6,12 @@
 
 **Turning satellite observations into accessible wildfire awareness.**
 
-Built for the **NASA Space Apps Challenge** 🚀
+Built for the **[2026 NASA Space Apps Challenge](https://www.spaceappschallenge.org/2026/challenges/)** 🚀
 
 [![Live Demo](https://img.shields.io/badge/🔥_LIVE_DEMO-Launch_FireWatch-F97316?style=for-the-badge)](https://firewatch-frontend-5z5.pages.dev/)
-![NASA Space Apps](https://img.shields.io/badge/NASA-Space_Apps_Challenge-0B3D91?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active_Development-22C55E?style=for-the-badge)
+[![NASA Space Apps](https://img.shields.io/badge/NASA-Space_Apps_2026-0B3D91?style=for-the-badge)](https://www.spaceappschallenge.org/2026/challenges/)
 
-**[Explore FireWatch](https://firewatch-frontend-5z5.pages.dev/)**
+**[🌐 Explore FireWatch](https://firewatch-frontend-5z5.pages.dev/)**
 
 </div>
 
@@ -26,7 +25,7 @@ Satellite technology provides valuable observations of fire activity across the 
 
 **FireWatch aims to bridge that gap.**
 
-Created for the NASA Space Apps Challenge, FireWatch makes satellite-derived wildfire information more accessible through an interactive web application.
+Created for the 2026 NASA Space Apps Challenge, FireWatch makes satellite-derived wildfire information more accessible through an interactive web application.
 
 Our goal is simple:
 
@@ -45,20 +44,21 @@ Visualize fire detections geographically through an interactive interface.
 ### 📍 Location-Based Monitoring
 Choose an area of interest and explore wildfire activity relevant to that location.
 
-### 📲 Wildfire Alert Registration
-Register a monitoring location, alert radius, and phone number to request notifications.
+### 📲 SMS Wildfire Alerts — Under Development
+FireWatch is being developed to support location-based SMS wildfire notifications using **Twilio**.
 
-*Alert delivery availability depends on the configured backend and notification service.*
+The planned alert system will allow users to:
+- Register a phone number to receive notifications.
+- Select a geographic monitoring location.
+- Choose an alert radius.
+- Receive SMS notifications when relevant wildfire activity is detected.
+
+**⚠️ Development Note:** The Twilio SMS alert functionality is not yet operational. While the alert registration interface has been implemented, successful automated SMS delivery has not yet been achieved.
 
 ---
 
 ## 📸 Application Preview
 
-<!-- Add screenshots to an assets folder in your repository -->
-
-<!-- Example:
-![FireWatch Dashboard](assets/firewatch-dashboard.png)
--->
 
 **🔥 [Try the Live Application](https://firewatch-frontend-5z5.pages.dev/)**
 
@@ -73,20 +73,22 @@ flowchart TD
     C["🌐 FireWatch Application"]
     D["🗺️ Interactive Map"]
     E["📍 Location Monitoring"]
-    F["📲 Alert Registration"]
+    F["📲 Twilio SMS Alerts - In Development"]
 
     A --> B
     B --> C
     C --> D
     C --> E
-    E --> F
+    E -.-> F
 ```
 
 FireWatch transforms geospatial fire observations into information that users can explore through a web interface.
 
+The dashed connection represents the planned Twilio SMS notification functionality, which is still under development.
+
 ---
 
-## 🛠️ Technology
+## 🛠️ Technology Stack
 
 Our application combines web development, geospatial data, and cloud-based services.
 
@@ -98,7 +100,7 @@ Our application combines web development, geospatial data, and cloud-based servi
 | Backend | Cloudflare Pages Functions |
 | Database | Cloudflare D1 |
 | Mapping | To be confirmed |
-| Notifications | To be confirmed |
+| SMS Notifications | Twilio (In Development) |
 
 ---
 
@@ -106,8 +108,9 @@ Our application combines web development, geospatial data, and cloud-based servi
 
 We hope to continue improving FireWatch by exploring:
 
+- Completing and testing Twilio SMS wildfire notifications
 - More timely wildfire data updates
-- Improved alert delivery and monitoring
+- Improved location-based alert monitoring
 - Additional satellite datasets
 - Better map filtering and visualization
 - Expanded geographic coverage
@@ -117,7 +120,7 @@ We hope to continue improving FireWatch by exploring:
 
 ## 👩‍💻 Meet the Team
 
-Developed by **Maria & Roberta** for the NASA Space Apps Challenge.
+Developed by **Maria & Roberta** for the **2026 NASA Space Apps Challenge**.
 
 This project brought together our interests in technology, real-world problem-solving, and building applications that can make a meaningful difference.
 
