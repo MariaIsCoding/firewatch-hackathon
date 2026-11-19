@@ -137,7 +137,7 @@ This project brought together our interests in technology, real-world problem-so
 
 <div align="center">
 
-### 🌍 Stay Aware. Stay Informed.
+### 🌍 Stay Aware. Stay Informed
 
 **Explore wildfire activity with FireWatch.**
 
